@@ -1,0 +1,9 @@
+database: data/memory.db
+ollama:
+  base_url: http://localhost:11434
+  model: qwen3.5:9b
+  context_length: 8192
+  keep_alive: 30m
+inference:
+  max_queue: 20
+  timeout_seconds: 180
